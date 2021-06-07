@@ -27,7 +27,9 @@ pip install google-cloud-speech
 
 1. 서비스 계정 키를 json파일로 발급받는다. [참고](https://webnautes.tistory.com/1247)
 
-2. [main.py](https://github.com/jiwoo-jus/speechToText/blob/137fd554c0e7708a3de27bf0fa3bcc43d77cdcdd/main.py) **line5** 에 발급받은 서비스 계정 키 로컬 경로를 입력한다. *서비스 계정 키를 환경변수에 등록했다면 **line5** 를 주석처리한다.*
+2. [main.py](https://github.com/jiwoo-jus/speechToText/blob/137fd554c0e7708a3de27bf0fa3bcc43d77cdcdd/main.py) **line5** 에 발급받은 서비스 계정 키 로컬 경로를 입력한다. 
+    
+    **서비스 계정 키를 환경변수에 등록했다면 **line5** 를 주석처리한다.*
 
 **2. 대용량 오디오 파일 google cloud storage에 업로드**
 
