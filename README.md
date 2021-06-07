@@ -20,7 +20,7 @@ $ pip install moviepy
 ## speech to text
 
 ```bash
-pip install google-cloud-speech
+$ pip install google-cloud-speech
 ```
 
 **1. Google Cloud Speech-to-Text API 서비스 계정 키 등록**
